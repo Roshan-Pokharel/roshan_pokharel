@@ -1,0 +1,107 @@
+ *{
+  justify-content: center;
+  position: relative;
+  font-family: 'Nunito', sans-serif;
+ }  
+
+#mainDiv{
+  /* border-radius: 25px; */
+  display: flex;
+  text-transform:uppercase;
+  text-align: center;
+ 
+}
+
+#div1{
+  background-color: rgba(239, 134, 114, 0.66);
+  padding-right: 100px;
+  padding-left: 100px;
+
+}
+#div2{
+  padding-left: 100px;
+  background-color: rgba(231, 102, 77, 0.66);
+  padding-right: 100px;
+
+
+}
+#totalScore1{
+  padding-top:10px;
+  padding-bottom:30px;
+  font-size:50px;
+  margin-top:10px;
+  color:rgb(223, 70, 96);
+}
+#totalScore2{
+  margin-top:10px;
+  padding-top:10px;
+  padding-bottom:30px;
+  font-size:50px;
+  color:rgb(223, 70, 96);
+}
+#currentS1{
+  border-radius: 10px;
+  background-color: rgb(223, 70, 96);
+  height:100px;
+  width:150px;
+  color:white;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top:10px;
+}
+#currentS2{
+  border-radius: 10px;
+  background-color: rgb(223, 70, 96);
+  height:100px;
+  width:150px;
+  color:white;
+  text-align: center;
+  margin-bottom: 25px;
+  padding-top:10px;
+}
+#newGame{
+  position:absolute;
+  border-radius: 15px;
+  transform: translateX(-50%);
+  left:50%;
+  top:10%;
+  color:gray;
+  background-color: white;
+  font-size:20px;
+  border-style:none;
+}
+.dice{
+  position: absolute ;
+  left: 50%;
+  top: 120px;
+  transform: translateX(-50%);
+  height: 80px;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+
+}
+#hold{
+  position:absolute;
+  border-radius: 15px;
+  width:90px;
+  transform: translateX(-50%);
+  left:50%;
+  top:85%;
+  color:gray;
+  background-color: white;
+  font-size:20px;
+  border-style:none;
+}
+#roll{
+  position:absolute;
+  border-radius: 15px;
+  transform: translateX(-50%);
+  left:50%;
+  top:70%;
+  color:gray;
+  background-color: white;
+  font-size:20px;
+  border-style:none;
+}
+.hidden{
+  display:none;
+}
